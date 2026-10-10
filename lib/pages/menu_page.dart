@@ -3,6 +3,7 @@ import '../widget_form/agree_term_widget.dart';
 import '../widget_form/date_picker_page.dart';
 import '../widget_form/dialog_widget.dart';
 import '../widget_form/favorite_language_dropdown.dart';
+import '../widget_form/form_widget.dart';
 import '../widget_form/gender_selection.dart';
 import '../widget_form/instagram_connect_switch.dart';
 import '../widget_form/name_text_field.dart';
@@ -38,6 +39,7 @@ class MenuPage extends StatelessWidget {
       _MenuEntry('Checkbox', () => const AgreeTermsWidget()),
       _MenuEntry('Date Picker', () => const DatePickerPage()),
       _MenuEntry('Dialog, BottomSheet & Snackbar', () => const DialogWidget()),
+      _MenuEntry('Form untuk sesi 3', () => const FormWidget()),
     ];
 
     final List<_MenuEntry> navigationMenu = [
