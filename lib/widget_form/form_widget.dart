@@ -15,9 +15,9 @@ class _FormWidgetState extends State<FormWidget> {
   var sex = 'male';
   var isChecked = false;
   TextEditingController textController =
-      TextEditingController(text: 'Michael Situmorang');
+      TextEditingController(text: 'Obed Antonius Siahaan');
   TextEditingController birthDateController =
-      TextEditingController(text: '2001-12-23');
+      TextEditingController(text: '2006-09-15');
 
   @override
   void dispose() {
